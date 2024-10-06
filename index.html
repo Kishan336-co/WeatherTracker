@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <div id="video">
+      <video src="assets/video.mp4" autoplay muted loop></video>
+    </div>
+    <div class="container">
+      <h1>Weather Checker</h1>
+      <input type="text" id="cityInput" placeholder="Enter city" /><br />
+      <button id="searchButton">Search</button><br />
+      <canvas id="temperatureChart" width="800" height="200"></canvas>
+      <div id="information">
+        <div id="currentWeather"></div>
+        <div id="forecastWeather"></div>
+      </div>
+    </div>
+
+    <script src="script1.js"></script>
+  </body>
+</html>
